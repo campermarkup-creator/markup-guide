@@ -1,0 +1,24 @@
+{
+  "name": "101.markup_guide_test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build",
+    "chromatic": "chromatic --exit-zero-on-changes"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "devDependencies": {
+    "@storybook/addon-a11y": "^10.4.2",
+    "@storybook/addon-docs": "^10.4.2",
+    "@storybook/html": "^10.4.2",
+    "@storybook/html-vite": "^10.4.2",
+    "chromatic": "^17.3.0",
+    "storybook": "^10.4.2",
+    "vite": "^8.0.16"
+  }
+}
